@@ -8,6 +8,7 @@ import { auth, signInWithGoogle } from '../../firebase/firebase.utils';
 class SignIn extends Component {
     constructor(props) {
         super(props);
+
         this.state = {
             email: '',
             password: ''

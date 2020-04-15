@@ -1,0 +1,36 @@
+.cart-icon {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+   
+
+  .shopping-icon {
+    width: 30px;
+    height: 30px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    &:hover{
+        width:35px;
+        height:35px;
+    }
+   
+    
+  }
+
+  .item-count {
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 12px;
+    width: 24px;
+    color: white;
+    background-color: rgb(60, 160, 30);
+    text-align: center;
+  }
+
+}
