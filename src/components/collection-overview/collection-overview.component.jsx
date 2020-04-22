@@ -7,6 +7,7 @@ import { connect } from 'react-redux';
 const CollectionViews = ({ collections }) => {
 
     const catalog = Object.values(collections)
+
     return (
         <div className='collections-overview'>
             {
